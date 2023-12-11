@@ -6,7 +6,7 @@ const taskRouter = require("./router/task");
 // initializing express app
 const app = express();
 // giving port value
-const port = process.env.port;
+const port = process.env.PORT;
 
 // This middleware function parses incoming requests with JSON payloads, making it easier to handle POST requests in the server.
 app.use(express.json());
