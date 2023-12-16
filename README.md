@@ -19,13 +19,13 @@ To run this project locally, you need to have Node.js and MongoDB installed on y
 2. Install the dependencies: `npm install`
 3. Create a `.env` file in the root directory and add the following variables:
 
-PORT=3000
+- PORT=3000
 
-MONGODB_URL=mongodb://127.0.0.1:27017/task-manager-api
+- MONGODB_URL=mongodb://127.0.0.1:27017/task-manager-api
 
-JWT_SECRET=your_jwt_secret
+- JWT_SECRET=your_jwt_secret
 
-SENDGRID_API_KEY=your_sendgrid_api_key
+- SENDGRID_API_KEY=your_sendgrid_api_key
 
 4. Start the server: `npm run dev`
 5. Use Postman or any other API client to test the endpoints.
